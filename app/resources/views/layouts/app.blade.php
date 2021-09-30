@@ -34,6 +34,11 @@
           integrity="sha512-aEe/ZxePawj0+G2R+AaIxgrQuKT68I28qh+wgLrcAJOz3rxCP+TwrK5SPN+E5I+1IQjNtcfvb96HDagwrKRdBw=="
           crossorigin="anonymous"/>
 
+     <style>
+          body {
+                font-family: 'Nunito', sans-serif;
+            }
+        </style>
     @stack('third_party_stylesheets')
 
     @stack('page_css')

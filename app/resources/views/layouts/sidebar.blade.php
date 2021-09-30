@@ -1,9 +1,9 @@
 <aside class="main-sidebar sidebar-secoundary-primary elevation-4">
     <a href="{{ url('/home') }}" class="brand-link">
-        <img src="images/meeting.png"
+        <img src={{asset('images/meeting.png')}}
              alt="{{ config('app.name') }} Logo"
              class="brand-image img-circle elevation-3">
-        <span class="brand-text font-weight-light">{{ config('app.name') }}</span>
+        <span class="brand-text font-weight-bold">{{ config('app.name') }}</span>
     </a>
     <div class="sidebar">
         <nav class="mt-2">
